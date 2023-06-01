@@ -1,0 +1,187 @@
+
+.display_full {
+  width: 955px;
+  height: 1810px;
+  border: 5px black solid;
+  background-size:1500px;
+ 
+}
+.display_background_login{
+  background-image: url("agua.jpg");
+}
+
+.display_background_admin{
+  background-color: rgb(213, 91, 25);
+}
+  .login_container{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin: 600px auto;
+    font-size: 50px;
+    border-radius: 20px;
+  }
+
+  .login_background_container{
+    background-color: rgb(111, 176, 250);
+  }
+  .admin_background_container{
+    background-color: rgb(245, 137, 54);
+  }
+
+  .login-titulo{
+    position: relative;
+    top: 120px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+ 
+   }
+  .login-form {
+    position: absolute;
+    top: 250px;
+    left: -45px;
+  }
+  .login-input{
+    margin-left: 140px;
+    width: 400px;
+    height: 80px;
+    font-size: 40px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .login-btn {
+    position: relative;
+    top: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 90px;
+    border-radius: 15px;
+    font-size: 34px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+  .admin_menu{
+   position: relative;
+   left: 500px;
+   top: 10px;
+   color: aliceblue;
+
+  }
+
+  /* Ventana de Menu principal */
+  .inicio_father_container{
+    width: 955px;
+    height: 1810px;
+    border: 5px black solid;
+    border-radius: 50px;
+    background-image: url();
+    background-color: rgb(183, 67, 21);
+    background-size:1500px;
+  }
+  .inicio-btn_1{
+    position: relative;
+    top: 2%;
+    left: 5%;
+    width: 50%;
+    height: 5%;
+    background-color: rgb(248, 142, 49);
+    font-size: 55px;
+    border-radius: 12px;
+    border: black 10px solid;
+    text-align: center;
+    color: rgb(13, 1, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 400px;
+   
+  }
+.inicio-btn_2{
+
+  position: relative;
+  top: 5%;
+  left: 5%;
+  width: 50%;
+  height: 5%;
+  background-color: rgb(49, 171, 248);
+  font-size: 55px;
+  border-radius: 12px;
+  border: black 10px solid;
+  text-align: center;
+  color: rgb(13, 1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center
+  
+}
+
+/* Ventana modal */
+
+.modal-content{
+position: relative;
+ margin-top: 400px;
+ margin-left: 100px;
+ width: 800px;
+ height: auto;
+ padding: 10px;
+ border-radius: 10px;
+ background-color: brown;
+ text-align: center;
+ font-size: 60px;
+ color: beige;
+
+
+}
+
+.close{
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  background-color: green;
+  cursor: pointer;
+  color: white;
+}
+.display{
+
+  visibility:hidden;
+  z-index: 1;
+  position: absolute;
+  
+ 
+}
+.ya_existe{
+  position: absolute;
+  font-size: 60px;
+ color: rgb(243, 9, 9);
+ top: 1200px;
+ left: 130px;
+}
+.registro_exitoso{
+  position: absolute;
+  font-size: 53px;
+ color: rgb(5, 199, 63);
+ top: 1200px;
+ left: 86px;
+}
+.login_wrong{
+  position: relative;
+  font-size: 53px;
+ color: rgb(244, 241, 241);
+ top: -700px;
+ left: 70px;
+ width:800px;
+ height: 200px;
+ background-color: rgb(238, 3, 3);
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
